@@ -1,0 +1,152 @@
+.logo{
+    width: 31px;
+    height: 40px;
+}
+.container{
+    width: 1440px;
+    height: 1024px;
+}
+.start{
+    width: 1440px;
+    height: 65px;
+    display: flex;
+    border-bottom: solid 2px gray;
+}
+.div-1{
+    margin-left: 70px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.div-1 .element{
+    display: flex;
+    align-items: center;
+}
+.div-1 .element input{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+.div-2{
+    margin-left: 140px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.div-2 .tr{
+    display: flex;
+    align-items: center;
+}
+.login{
+    width: 61px;
+    height: 40px;
+    border: solid 1px #334155;
+    font-size: 14px;
+    color: #334155;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login:hover{
+    background-color: azure;
+}
+.signup{
+    width: 73px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #334155;
+}
+.signup:hover{
+    background-color: yellow;
+    color: black;
+}
+.gogokompiutertan{
+    width: 628px;
+    height: 959px;
+}
+.saerto{
+    display: flex;
+}
+.div-3{
+    margin-top: 94px;
+    margin-left: 40px;
+    width: 692px;
+    height: 706px;
+    gap: 24px;
+}
+.div-3 > * {
+    margin-top: 24px; 
+}  
+.sign{
+    font-size: 32px;
+    text-align: center;
+}
+.password-container {
+    display: flex;
+}
+.submit{
+    margin-top: 24px; 
+    width: 183px; 
+    height: 48px; 
+    cursor: pointer; 
+    background-color: #020617;
+    color: white;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: yellow;
+    color: black;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+.divider:not(:empty)::before {
+    margin-right: 0.5em;
+}
+.divider:not(:empty)::after {
+    margin-left: 0.5em;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+}
+.icons div {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    width: 220px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icons div:hover{
+    background-color: azure;
+}
+.icons a {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    text-decoration: none; 
+    color: inherit; 
+}
+.icons img {
+    width: 24px;
+    height: 24px;
+}

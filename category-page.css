@@ -1,0 +1,369 @@
+.logo{
+    width: 31px;
+    height: 40px;
+}
+.container{
+    width: 1440px;
+    height: 2996px;
+}
+.start{
+    width: 1440px;
+    height: 65px;
+    display: flex;
+    border-bottom: solid 2px gray;
+}
+.div-1{
+    margin-left: 70px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.div-1 .element{
+    display: flex;
+    align-items: center;
+}
+.div-1 .element input{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+.div-2{
+    margin-left: 140px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.div-2 .tr{
+    display: flex;
+    align-items: center;
+}
+.design-courses{
+    width: 1280px;
+    height: 1361px;
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+}
+.left{
+    width: 305px;
+    height: 1361px;
+}
+.filter{
+    width: 112px;
+    height: 48px;
+    border: solid 1px #0F172A;
+    border-radius: 8px;
+    margin-top: 37px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+.rating {
+    width: 305px;
+    height: 58px;
+    margin-top: 35px;
+}
+.rating-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: solid 1px #E2E8F0;
+    font-size: 16px;
+}
+.rating-content {
+    display: block; 
+    border-radius: 5px;
+    padding: 10px;
+    width: 305px;
+    height: 180px;
+}
+.stars {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.star {
+    font-size: 25px;
+    color: gold;
+}
+.star.gray {
+    color: lightgray;
+}
+.stars {
+    cursor: pointer;
+}
+.stars.selected {
+    background-color: azure;
+}
+.numberofchapters {
+    width: 305px;
+    height: 58px;
+    margin-top: 220px;
+}
+.numberofchapters-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: solid 1px #E2E8F0;
+    font-size: 16px;
+}
+.numberofchapters-header span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.numberofchapters-content {
+    border-radius: 5px;
+    padding: 10px;
+    width: 305px;
+    font-size: 16px;
+    display: block; 
+}
+.numberofchapters input {
+    width: 24px;
+    height: 24px;
+}
+.numberofchapters label {
+    font-size: 16px;
+}
+.numberofchapters input[type="radio"] {
+    width: 24px;
+    height: 24px;
+    border-radius: 5px; 
+    appearance: none; 
+    border: 2px solid #E2E8F0; 
+    background-color: white; 
+    transition: border 0.3s;
+    position: relative; 
+}
+.numberofchapters input[type="radio"]:checked {
+    background-color: #3B82F6; 
+    border-color: #E2E8F0; 
+}
+.numberofchapters input[type="radio"]:checked::after {
+    content: ''; 
+    position: absolute;
+    left: 7px; 
+    top: 3px; 
+    width: 6px;
+    height: 12px;
+    border: solid #E2E8F0;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.seemore {
+    margin-top: 140px;
+    font-size: 17px;
+}
+.seemore-text{
+    font-size: 17px;
+    color: #2563EB;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.seemore-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: solid 1px #E2E8F0;
+    font-size: 16px;
+}
+
+.seemore-header span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.toggle-icon {
+    font-size: 20px;
+}
+
+.more-content {
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.right{
+    width: 935px;
+    height: 1361px;
+    margin-left: 40px;
+}
+.top{
+    margin-left: 700px;
+    display: flex;
+}
+.sortby{
+    margin-top: 134px;
+}
+.relevance{
+    width: 147px;
+    height: 48px;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 935px;
+    height: 1095;
+}
+.kursebi{
+    margin-top: 25px;
+    width: 298px;
+    height: 338px;
+    border: solid 1px #E2E8F0;
+    border-radius: 7px;
+}
+.kursebi:hover{
+    background-color:ghostwhite;
+    cursor: pointer;
+}
+.inside{
+    width: 266px;
+    height: 306px;
+    margin-left: 14px;
+    margin-top: 17px;
+    border-radius: 5px;
+}
+.inside img{
+    width: 266px;
+    height: 139px;
+    border-radius: 5px;
+}
+.pagechanger{
+    display: flex;
+    width: 211px;
+    height: 41px;
+    margin-top: 25px;
+    margin-left: 363px;
+    border-radius: 2px;
+}
+.pagechanger div{
+    width: 43px;
+    height: 41px;
+    border: solid 1px #E2E8F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.pagechanger div:hover{
+    background-color: ghostwhite;
+}
+.popularmentors{
+    margin-top: 40px;
+    width: 1440px;
+    height: 473px;
+    background-color: #F8FAFC;
+}
+.mentors{
+    position: relative;
+    top: 67px;
+    margin-left: 80px;
+}
+.mentorstext{
+    font-size: 25px;
+}
+.mentorsdiv{
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+}
+.mentorsdiv .flex{
+    width: 212px;
+    height: 281px;
+    border: solid 1px #E2E8F0;
+    border-radius: 16px;
+}
+.info{
+    width: 180px;
+    height: 249px;
+    border-radius: 8px;
+    margin: 16px;
+}
+.info img{
+    object-position: top;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 180px;
+    height: 132px;
+}
+.flex{
+    cursor: pointer;
+}
+.flex:hover{
+    background-color: bisque;
+}
+.featuredcourses{
+    width: 1280px;
+    height: 396px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.featurestext{
+    font-size: 25px;
+}
+.featuresdiv{
+    display: flex;
+    gap: 29px;
+}
+.qvemota{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.qveshua {
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+.pirveli{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meore{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meore div{
+    color: #CBD5E1;
+}
+.mesame{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mesame div{
+    color: #CBD5E1;
+}
+.meotxe{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meotxe div{
+    color: #CBD5E1;
+}
+.icons img {
+    width: 35px; 
+    height: 35px; 
+    margin: 5px; 
+}
+.icons a {
+    text-decoration: none; 
+}

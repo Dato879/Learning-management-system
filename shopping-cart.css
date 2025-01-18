@@ -1,0 +1,104 @@
+.container{
+    width: 1440px;
+    height: 1471px;
+}
+.start{
+    width: 1440px;
+    height: 65px;
+    display: flex;
+    border-bottom: solid 2px gray;
+}
+.div-1{
+    margin-left: 70px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.div-1 .element{
+    display: flex;
+    align-items: center;
+}
+.div-1 .element input{
+    width: 500px;
+    height: 25px;
+    border-radius: 5px;
+}
+.div-2{
+    margin-left: 140px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.div-2 .tr{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 31px;
+    height: 40px;
+}
+.shoppingcart{
+    margin-top: 40px;
+    margin-left: 80px;
+    display: flex;
+    width: 536px;
+    height: 42px;
+}
+.cart:hover{
+    cursor: pointer;
+    background-color: honeydew;
+}
+.orderdetails{
+    position: absolute;
+    top: 158px;
+    left: 1040px;
+    gap: 8px;
+    width: 330px;
+    height: 251px;
+}
+.yellow:hover{
+    background-color: yellow !important;
+}
+.qvemota{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.qveshua {
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+.pirveli{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meore{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meore div{
+    color: #CBD5E1;
+}
+.mesame{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mesame div{
+    color: #CBD5E1;
+}
+.meotxe{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meotxe div{
+    color: #CBD5E1;
+}
+.icons img {
+    width: 35px; 
+    height: 35px; 
+    margin: 5px; 
+}
+.icons a {
+    text-decoration: none; 
+}
